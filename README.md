@@ -17,7 +17,7 @@ nomequevocêquiser = Proxy.getInterface("lul_procurado")
 
 local tempo = nomequevocêquiser.retornarProcuradoComTempo() irá retornar uma tabela com todos user_id<br>
 if tempo[user_id] == 0 then<br>
-   nomequevocêquiser.setarProcurado(user_id,300)<br>
+    nomequevocêquiser.setarProcurado(user_id,300)<br>
 end<br>
 # Suporte
 Não tenho um discord privado, talvez futuramente, caso encontre algum bug favor mandar mensagem privado: bartlul#0608
