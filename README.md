@@ -2,13 +2,13 @@
 Salve salve, scriptzinho que mostra quando tá procurado.
 
 #Características
-• Código simples
-• Até onde testei adaptável a maioria das telas
-• Comando /procurado ID TEMPO caso queira brincar
+• Código simples<br>
+• Até onde testei adaptável a maioria das telas<br>
+• Comando /procurado ID TEMPO caso queira brincar<br>
 
 #Possiveis atualizações
-Colocar um comando para desabilitar a nui de procurado.
-Talvez criar um comando para a policia checar se a pessoa está procurada.
+Colocar um comando para desabilitar a nui de procurado.<br>
+Talvez criar um comando para a policia checar se a pessoa está procurada.<br>
 
 #Suporte
 Não tenho um discord privado, talvez futuramente, caso encontre algum bug favor mandar mensagem privado: bartlul#0608
