@@ -1,4 +1,4 @@
-# lul_procurado
+# lul_procurado VRPEX
 Salve salve, scriptzinho que mostra quando tá procurado.
 
 # Características
