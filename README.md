@@ -15,9 +15,9 @@ Digamos que você está na pasta de roubo a caixa eletrônico e quer conferir se
 
 nomequevocêquiser = Proxy.getInterface("lul_procurado")
 
-local tempo = nomequevocêquiser.retornarProcuradoComTempo(source,user_id) <b>retorna uma tabela</b>
 ```lua
-if tempo[user_id] == 0 then
+local tempo = nomequevocêquiser.retornarProcuradoComTempo(source,user_id) -- retorna uma tabela
+if tempo[user_id] == 0 then -- percorrendo a tabela
     nomequevocêquiser.setarProcurado(user_id,300) -- isso é == vRPidd.setarProcurado
 end
 ```
