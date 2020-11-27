@@ -1,0 +1,73 @@
+.container {
+    width: 29vh;
+    height: 7vh;
+    background-color: rgba(110, 110, 110, 0.438);
+    float: right;
+    border-radius: 2vh;
+    margin-top: 65vh;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+img {
+    max-width: 6vh;
+    float: left;
+    margin: 0.5vh 0;
+}
+
+#tempo {
+    text-align: center;
+    padding-top: 2.9vh;
+    font-size: 1.3vh;
+    color: rgba(255, 255, 255, 0.733);
+}
+
+.tempoFormatado {
+    color: red;
+    font-size: 1.3vh;
+    letter-spacing: 0.05vh;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+
+@keyframes fadeOut {
+    100% { opacity: 1; }
+    0% { opacity: 0; }
+    }
+
+/*media queries */
+@media screen and (max-width:1360px) {
+    #tempo {
+    font-size: 1.5vh;
+    }
+
+    .container {
+        width: 32vh;
+    }
+
+    .tempoFormatado {
+        font-size: 1.4vh;
+        font-weight: 500;
+        letter-spacing: 0.2vh;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #tempo {
+    font-size: 1.5vh;
+    }
+
+    .container {
+        width: 32vh;
+    }
+
+    .tempoFormatado {
+        font-size: 1.5vh;
+        font-weight: 600;
+        letter-spacing: 0.2vh;
+    }
+}
